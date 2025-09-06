@@ -31,7 +31,8 @@ mmgp
 
 # for training differentiable tensors
 torchmetrics
-pytorch_msssim
+#pytorch_msssim
+git+https://github.com/VainF/pytorch-msssim#egg=pytorch-msssim
 pytorch-lightning
 peft
 
