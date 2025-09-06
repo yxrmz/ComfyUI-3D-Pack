@@ -36,19 +36,19 @@ spconv_cuda_mapping:
 # All packages will be automatically installed at beginning of install.py follwing orders from top to bottom 
 remote_packages:
   torch:
-    version: "2.7.0"
+    version: "2.5.1"
     url: "https://download.pytorch.org/whl/${cuda_version}"
   
   torchvision:
-    version: "0.22.0"
+    version: "0.20.1"
     url: "https://download.pytorch.org/whl/${cuda_version}"
 
   torchaudio:
-    version: "2.7.0"
+    version: "2.5.1"
     url: "https://download.pytorch.org/whl/${cuda_version}"
 
   xformers:
-    version: "0.0.30"
+    version: "0.0.29"
     url: "https://download.pytorch.org/whl/${cuda_version}"
 
   torch-scatter:
